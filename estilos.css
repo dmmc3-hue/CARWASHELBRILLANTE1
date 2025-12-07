@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    background: #0A1A2F;
+}
+
+header {
+    background: #1E1E1E;
+    color: #708090;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+section {
+    padding: 20px;
+}
+h2, h3 {
+    font-size: 16px; 
+    margin-bottom: 10px;
+}
+
+.servicios-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.servicio {
+    background: black;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.servicio:hover {
+    transform: scale(1.02);
+}
+
+.servicio img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 8px;
+    background: #0a5fa3;
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background: #084a82;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 12px;
+}
+
+table th {
+    background: #0A1A2F;
+    color: white;
+}
+
+footer {
+    background: #1E1E1E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.valores {
+    background: #1E1E1E;
+    border: 1px solid #ddd;
+    color: #white;
+    width: 50%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+.valores h2 {
+    font-size: 16px;
+    color: #708090;
+    margin-bottom: 10px;
+}
+.valores ul {
+    padding-left: 20px;
+}
+.angosto {
+    width: 60%; margin: auto;
+}
